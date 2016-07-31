@@ -249,7 +249,7 @@ int qdl_server_wait_response(int fd, char code) {
 	return 0;
 }
 
-#define FW_SIZE_PER_PACKAGE		(256*1024)
+#define FW_SIZE_PER_PACKAGE		(16*1024)
 int main(int argc, char **argv) {	
 	int serialfd;
 	int fwfd;
